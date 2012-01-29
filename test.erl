@@ -1,0 +1,2 @@
+-define(TEST, 1).
+-include_lib("eunit/include/eunit.hrl").
