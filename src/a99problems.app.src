@@ -1,0 +1,12 @@
+{application, a99problems,
+ [
+  {description, "99 problems"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { a99problems_app, []}},
+  {env, []}
+ ]}.

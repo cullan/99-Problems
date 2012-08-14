@@ -1,6 +1,6 @@
 -module(p02).
 -export([last_two/1]).
--include("test.erl").
+-include("test.hrl").
 
 last_two([]) ->
     error(last_two_of_empty_list);

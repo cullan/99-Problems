@@ -1,6 +1,6 @@
 -module(p03).
 -export([nth/2]).
--include("test.erl").
+-include("test.hrl").
 
 %% Find the Nth element of a list
 nth(N, L) ->

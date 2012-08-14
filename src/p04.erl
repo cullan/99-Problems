@@ -1,6 +1,6 @@
 -module(p04).
 -export([my_length/1]).
--include("test.erl").
+-include("test.hrl").
 
 %% Find the number of elements in a list
 my_length([]) ->
